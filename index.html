@@ -26,6 +26,11 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
         </div>
     </header>
 
@@ -126,21 +131,21 @@
                     <a href="https://www.linkedin.com/in/sanchit-agrawal-product/" target="_blank" class="team-member-link">
                         <div class="team-member">
                             <img src="./img/sanchit.jpeg" alt="Sanchit Agrawal">
-                            <h3>Sanchit Agrawal</h3>
+                            <h3>Sanchit Agrawal - CEO</h3>
                             <p>Blinkit | Walmart | Swiggy | Barclays | ISB Hyderabad | IIIT</p>
                         </div>
                     </a>
                     <a href="https://www.linkedin.com/in/iamskashyap07/" target="_blank" class="team-member-link">
                         <div class="team-member">
                             <img src="./img/sudarshan.jpeg" alt="Sudarshan Kashyap">
-                            <h3>Sudarshan Kashyap</h3>
+                            <h3>Sudarshan Kashyap - COO</h3>
                             <p>Co-founder COO Houseboon</p>
                         </div>
                     </a>
                     <a href="https://www.linkedin.com/in/nand-sharma/" target="_blank" class="team-member-link">
                         <div class="team-member">
                             <img src="./img/nand.png" alt="Nand Sharma">
-                            <h3>Nand Sharma</h3>
+                            <h3>Nand Sharma - CTO</h3>
                             <p>Co-founder CTO Khelgully | Blinkit | IIIT Allahabad</p>
                         </div>
                     </a>
@@ -171,6 +176,15 @@
             <p>&copy; 2025 Kargo. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navUl = document.querySelector('.nav ul');
+
+        hamburger.addEventListener('click', () => {
+            navUl.classList.toggle('active');
+        });
+    </script>
 
 </body>
 </html>
