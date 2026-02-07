@@ -5,7 +5,7 @@
 A quick‑commerce auto‑parts network is fundamentally a **technology-first business**. The speed, accuracy, reliability, and scale of the model are entirely dependent on advanced systems including:
 
 * High‑performance mobile apps with AI-driven search and personalisation
-* A nationwide order, inventory, fulfilment, and routing engine operating in real time
+* A pan-india order, inventory, fulfilment, and routing engine operating in real time
 * Automated procurement and stock movement systems
 * Predictive analytics and ML‑driven pricing
 * AI‑based customer communication tools
@@ -106,7 +106,6 @@ Key capabilities:
 * Automatic purchase requests based on forecasts or low stock
 * Supplier selection and PO creation
 * Supplier confirmation and delivery tracking
-* GRN and QC at inbound
 * Automated PO vs received reconciliation
 * Handling partial fills and rejections
 
